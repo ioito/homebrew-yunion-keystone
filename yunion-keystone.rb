@@ -189,6 +189,10 @@ class YunionKeystone < Formula
     climc policy-create sysfa #{etc}/keystone/policies/sysfa.yaml
     climc policy-create syssa #{etc}/keystone/policies/syssa.yaml
 
+    climc region-create Yunion
+    climc service-create cloudmeta cloudmeta
+    climc endpoint-create cloudmeta Yunion internal https://meta.yunion.cn
+    climc endpoint-create cloudmeta Yunion public https://meta.yunion.cn
   EOS
   end
 
