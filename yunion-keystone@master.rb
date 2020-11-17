@@ -1,4 +1,4 @@
-class YunionKeystoneAT31 < Formula
+class YunionKeystone < Formula
   desc "Yunion Cloud Keystone Identity server"
   homepage "https://github.com/yunionio/onecloud.git"
   url "https://github.com/yunionio/onecloud.git"
