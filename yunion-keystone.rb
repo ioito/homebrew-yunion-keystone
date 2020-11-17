@@ -1,9 +1,10 @@
 class YunionKeystone < Formula
   desc "Yunion Cloud Keystone Identity server"
   homepage "https://github.com/yunionio/onecloud.git"
-  url "https://github.com/yunionio/onecloud.git"
+  url "https://github.com/yunionio/onecloud.git",
+    :branch      => "master"
   version_scheme 1
-  head "https://github.com/yunionio/onecloud.git", branch: "master"
+  head "https://github.com/yunionio/onecloud.git"
 
   depends_on "go" => :build
 
