@@ -3,7 +3,7 @@ class YunionKeystone < Formula
   homepage "https://github.com/yunionio/onecloud.git"
   url "https://github.com/yunionio/onecloud.git"
   version_scheme 1
-  head "https://github.com/yunionio/onecloud.git"
+  head "https://github.com/yunionio/onecloud.git", branch: "master"
 
   depends_on "go" => :build
 
