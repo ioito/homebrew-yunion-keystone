@@ -37,7 +37,7 @@ class YunionKeystone < Formula
     (buildpath/"projectowner.yaml").write projectowner_yaml
     (etc/"keystone/policies").install "projectowner.yaml"
 
-    (buildpath/"projectsa.yaml").write projectsa_yamlf
+    (buildpath/"projectsa.yaml").write projectsa_yaml
     (etc/"keystone/policies").install "projectsa.yaml"
 
     (buildpath/"sysfa.yaml").write sysfa_yamlf
